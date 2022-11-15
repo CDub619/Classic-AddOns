@@ -1,0 +1,5 @@
+## Interface: 90000
+## Title: Bambi's PWS UI
+## Author: Bambi
+## Version: 9.0
+BambiPWS.lua

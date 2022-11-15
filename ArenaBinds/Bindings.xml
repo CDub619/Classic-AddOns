@@ -1,0 +1,34 @@
+<Bindings>
+	<Binding name="CLICK TargetArena1Btn:LeftButton" header="ARENABINDS" category="Targeting">
+		--Target Arena 1
+	</Binding>
+	<Binding name="CLICK TargetArena2Btn:LeftButton" category="Targeting">
+		--Target Arena 2
+	</Binding>
+	<Binding name="CLICK TargetArena3Btn:LeftButton" category="Targeting">
+		--Target Arena 3
+	</Binding>
+	<Binding name="CLICK TargetArena4Btn:LeftButton" category="Targeting">
+		--Target Arena 4
+	</Binding>
+	<Binding name="CLICK TargetArena5Btn:LeftButton" category="Targeting">
+		--Target Arena 5
+	</Binding>
+
+
+	<Binding name="CLICK FocusArena1Btn:LeftButton" category="Targeting">
+		--Focus Arena 1
+	</Binding>
+	<Binding name="CLICK FocusArena2Btn:LeftButton" category="Targeting">
+		--Focus Arena 2
+	</Binding>
+	<Binding name="CLICK FocusArena3Btn:LeftButton" category="Targeting">
+		--Focus Arena 3
+	</Binding>
+	<Binding name="CLICK FocusArena4Btn:LeftButton" category="Targeting">
+		--Focus Arena 4
+	</Binding>
+	<Binding name="CLICK FocusArena5Btn:LeftButton" category="Targeting">
+		--Focus Arena 5
+	</Binding>
+</Bindings>

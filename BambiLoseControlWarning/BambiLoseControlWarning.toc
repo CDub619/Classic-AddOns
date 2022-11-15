@@ -1,0 +1,8 @@
+## Title: Bambi's LoseControl Warning
+## Interface: 90000
+## Notes: Adds a row of spells to the LoseCOntrol Party Frames if LC and Bambi's UI is enabled
+## Author: Bambi
+## Version: 9.0
+## Dependencies: LoseControl, BambiUI
+
+LoseControlWarning.lua

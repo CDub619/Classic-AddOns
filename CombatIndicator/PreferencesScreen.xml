@@ -1,0 +1,53 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+                   ..\..\FrameXML\UI.xsd">
+
+    <Frame name="PreferencesScreen" parent="UIParent" inherits="BasicFrameTemplate" hidden="true">
+        <Size x="200" y="200"/>
+        <Anchors>
+            <Anchor point="CENTER"/>
+        </Anchors>
+
+        <Layers>
+            <Layer level="OVERLAY">
+                <FontString text="Preferences" font="GameFontHighLight">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" x="8" y="-6"/>
+                    </Anchors>
+                </FontString>
+            </Layer>
+        </Layers>
+
+        <Frames>
+            <Button name="SaveButton" inherits="UIPanelButtonTemplate" text="Save">
+                <Size x="128" y="21"/>
+                <Anchors>
+                    <Anchor point="BOTTOM" x="0" y="16"/>
+                </Anchors>
+            </Button>
+
+            <CheckButton name="IconCheckButton" inherits="UICheckButtonTemplate" checked="true">
+                <Anchors>
+                    <Anchor point="LEFTTOP" x="8" y="-36"/>
+                </Anchors>
+                <Scripts>
+                    <OnLoad>
+                            getglobal(IconCheckButton:GetName() .. 'Text'):SetText('Display icon')
+                    </OnLoad>
+                </Scripts>
+            </CheckButton>
+
+            <CheckButton name="SoundCheckButton" inherits="UICheckButtonTemplate" checked="true">
+                <Anchors>
+                    <Anchor point="LEFTTOP" X="8" Y="-72"/>
+                </Anchors>
+                <Scripts>
+                    <OnLoad>
+                            getglobal(SoundCheckButton:GetName() .. 'Text'):SetText('Play sound')
+                    </OnLoad>
+                </Scripts>
+            </CheckButton>
+        </Frames>
+    </Frame>
+</Ui>

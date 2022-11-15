@@ -1,0 +1,16 @@
+lightweight tag 7c64ecf0a5ad311046921428665dbb9472986584 7.0.7-BCC
+Author:	Resike <resike@gmail.com>
+Date:	Mon Jun 21 00:47:19 2021 +0200
+
+commit 7c64ecf0a5ad311046921428665dbb9472986584
+Author: Resike <resike@gmail.com>
+Date:   Mon Jun 21 00:47:19 2021 +0200
+
+    Dispel fix
+
+commit e275568e82191227956d73868a262f4c277e484b
+Author: Resike <resike@gmail.com>
+Date:   Mon Jun 21 00:47:10 2021 +0200
+
+    BCC class fixes
+
